@@ -46,11 +46,19 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation(project(mapOf("path" to ":navigation")))
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
+    implementation(project(mapOf("path" to ":feature:cart")))
+    implementation(project(mapOf("path" to ":feature:profile")))
+    implementation(project(mapOf("path" to ":feature:catalog")))
+    implementation(project(mapOf("path" to ":feature:home")))
+    implementation(project(mapOf("path" to ":feature:signin")))
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    val dagger_ver = "2.47"
+    val dagger_ver = "2.48.1"
     implementation ("com.google.dagger:dagger:$dagger_ver")
     implementation ("com.google.dagger:dagger-android:$dagger_ver")
     implementation ("com.google.dagger:dagger-android-support:$dagger_ver")
