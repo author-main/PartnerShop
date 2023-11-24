@@ -35,4 +35,12 @@
         android:label="ProfileFragment"
         tools:layout="@layout/fragment_profile"
         />
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.trade.feature.reset_password.presentation.reset_password.ResetPasswordFragment"
+        android:label="ResetPasswordFragment" />
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.trade.feature.signup.presentation.signup.SignupFragment"
+        android:label="SignupFragment" />
 </navigation>
