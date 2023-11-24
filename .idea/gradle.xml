@@ -19,7 +19,9 @@
             <option value="$PROJECT_DIR$/feature/catalog" />
             <option value="$PROJECT_DIR$/feature/home" />
             <option value="$PROJECT_DIR$/feature/profile" />
+            <option value="$PROJECT_DIR$/feature/reset_password" />
             <option value="$PROJECT_DIR$/feature/signin" />
+            <option value="$PROJECT_DIR$/feature/signup" />
             <option value="$PROJECT_DIR$/navigation" />
           </set>
         </option>
