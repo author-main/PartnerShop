@@ -10,10 +10,6 @@ import com.trade.feature.cart.R
 
 class CartFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = CartFragment()
-    }
-
     private lateinit var viewModel: CartViewModel
 
     override fun onCreateView(
@@ -21,12 +17,6 @@ class CartFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_cart, container, false)
-    }
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(CartViewModel::class.java)
-        // TODO: Use the ViewModel
     }
 
 }
