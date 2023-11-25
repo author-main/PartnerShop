@@ -1,4 +1,4 @@
-package com.trade.feature.signin.presentation.signin
+package com.trade.feature.signin.presentation
 
 interface SigninRouter {
     fun launchSignup(email: String = "")

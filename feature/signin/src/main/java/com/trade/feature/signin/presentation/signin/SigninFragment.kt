@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
 import com.trade.feature.signin.R
 
 class SigninFragment : Fragment() {
@@ -13,6 +14,7 @@ class SigninFragment : Fragment() {
     //private val binding by viewBinding<FragmentSigninBinding>()
 
     private val viewModel by viewModels<SigninViewModel>()
+    //private val viewModel: SigninViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
